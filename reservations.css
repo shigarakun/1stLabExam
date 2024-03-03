@@ -1,0 +1,242 @@
+body{
+    background: url(images/imagee2.jpg) fixed no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.beachlogo{
+    margin-left: 230px;
+    padding-left: 5px;
+
+}
+.headerRain h1{
+    font-size: 40px;  
+    text-shadow: 2px 2px 2px#3b3b31b0;
+}
+header a {
+    text-decoration: none;
+    
+}
+header{
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    padding-inline-start: 10px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding-left: 20px;
+}
+h1{
+    color: wheat;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight:bolder;
+    text-shadow: #0c0c0b 2px 2px 8px;
+    font-family: luminari,serif;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+ p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.2px;
+    text-shadow: 5px 2px 9px rgb(1, 1, 19);
+    font-size: 15px;
+ }
+
+ .mainp{
+    text-align: justify;
+    
+ }
+ /* h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-shadow: 2px 5px 7px  #05080a;
+ } */
+ 
+h2{
+    color: rgb(22, 15, 15);
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 0%;
+    font-weight: 100%;
+}
+nav{ 
+    list-style: none;
+    position: flex;
+    display: inline;
+    padding: 10px;
+    margin-right: 40px;
+    float: right;
+}
+
+nav a{
+    text-shadow: 5px 2px 9px rgb(17, 17, 66);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    /* font-size: 1em; */
+    margin-left: 20px;
+    
+}
+nav a:hover{
+    color: wheat;  
+}
+
+.active{
+    color: white;
+    background-color: black;
+}
+
+footer {
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    color: rgb(172, 134, 22);
+    /* padding-top: 50px; */
+    margin-bottom:10px;
+    
+    
+ }
+ footer a{
+    color: rgb(42, 12, 180);
+ }
+.remember-forgot{
+    font-size: medium;
+}
+ .wrapper{
+    width: 350px;
+    background: wheat;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 400px;
+    height: 450px;
+    box-shadow: 2px 2px 5px 2px rgba(12, 10, 10, 0.493);
+    border-radius: 20px; 
+    margin-top: 15px;
+
+    position: relative;
+    animation: fall .5s ease reverse;
+}
+@keyframes fall {
+    0%{
+        right: 0;
+    }
+    100%{
+        right: calc(50vh - 100px);
+    }
+}
+.wrapper2nd{
+    width: 350px;
+    background: rgba(15, 11, 11, 0.575);
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 32px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 400px;
+    height: 450px;
+    box-shadow: 2px 2px 5px 2px rgba(12, 10, 10, 0.493); 
+    border-radius: 20px;
+    margin-top: 15px;
+
+    position: relative;
+    animation: toleft .5s ease reverse;
+    
+}
+@keyframes toleft {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: calc(50vh - 100px);
+    }
+}
+
+.wrapper h1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-shadow: white; */
+}
+.input-group{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    
+}
+.Reservationf h3{
+    color: rgba(3, 0, 0, 0.801);
+    letter-spacing: .15em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.801);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    margin-left: 120px;
+    
+}
+.DT{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
+.NT{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    
+}
+.wrapper2nd p{
+    font-family: monospace;
+}
+.checkin{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.conIn h3{
+    font-size: 20px;
+    color: rgb(39, 37, 37);
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.checkin h3{
+    font-size: 20px;
+    color: rgb(39, 37, 37);
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.wrapper2nd h3, p{
+    color: wheat;
+    
+}
+
+
+

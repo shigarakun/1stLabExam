@@ -1,0 +1,136 @@
+
+body{
+    background:linear-gradient(rgba(5, 5, 5, 0.5),
+    rgba(28, 39, 134, 0.171)), url(images/roombg.jpg) fixed no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.beachlogo{
+    margin-left: 230px;
+    padding-left: 5px;
+
+}
+header{
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    padding-inline-start: 10px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding-left: 20px;
+}
+header a {
+    text-decoration: none;
+    
+}
+.headerRain h1{
+    font-size: 40px;  
+    color: wheat;
+    font-size: 40px;  
+    text-shadow: 2px 2px 2px#3b3b31b0;
+}
+ header h1 :hover{
+     color: rgb(143, 240, 240); 
+     
+}
+h1{
+    color: beige;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight:bolder;
+    text-shadow: #0c0c0b 2px 2px 8px;
+    font-family: luminari,serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+header a {
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    /* text-shadow: 2px 5px 7px  #05080a; */
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+nav{ 
+    list-style: none;
+    position: flex;
+    display: inline;
+    padding: 10px;
+    margin-right: 40px;
+    float: right;
+
+}
+
+nav a{
+    text-shadow: 5px 2px 9px rgb(17, 17, 66);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    /* font-size: 1em; */
+    margin-left: 20px;
+    
+}
+nav a:hover{
+    color: wheat;  
+}
+
+.active{
+    color: white;
+    background-color: black;
+}
+
+#container{ 
+    border-radius: 60px 30px 30px 50px;
+    background-color: beige;
+    display: flex;
+    margin: 20px 300px 20px 300px;
+}
+#container :hover{
+    transform: scale(1.1);
+    transition: .5s ease ;
+}
+#container img{
+    width: 200px; 
+    height: auto;
+    border-radius: 50px 0 0 50px;
+
+}
+#text{
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    color: #3a2602;   
+    text-shadow: 1px 2px 2px rgb(99, 99, 85);
+}
+#text p{
+    background-color: #785b2675;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+#text ul{
+    margin: 10px 10px 0 10px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+    
